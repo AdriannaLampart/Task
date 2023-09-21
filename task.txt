@@ -1,1 +1,9 @@
-Init content
+Test Case ID: Test1.0
+Title:Searching for “Prowly” filtered by Images data type and a color
+Priority: Major
+Environment:
+Version:1.0
+Preconditions:
+1. The user has an access to the Chrome browser (version 116.0.5845.188, 64bit)
+
+
