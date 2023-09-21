@@ -8,6 +8,7 @@ Preconditions:
 
 
 
+
 Test Case ID: Test2.0
 Title:Searching for phrase filtered by time range (selected from the searching tools)
 Priority: Major
