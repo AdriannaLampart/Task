@@ -1,13 +1,14 @@
 Test Case ID: Test1.0
 Title:Searching for phrase filtered by Images data type and a color
 Priority: Major
-Environment: Chrome Version 116.0.5845.188 (64-bitowa)
-Microsoft Edge Version 117.0.2045.36 (64-Bit)
+Environment: Chrome browser Version 116.0.5845.188 (64-bitowa)
+Microsoft Edge browser Version 117.0.2045.36 (64-Bit)
 Windows 10 Enterprise
 HP Elitebook Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz   1.80 GHz
 Version:1.0
 Preconditions:
 1. User has an access to the Chrome browser (version 116.0.5845.188, 64bit)
+2. User has an access to the Microsoft Edge browser (version 117.0.2045.36 64-Bit)
 
 +--------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 |        |                                                                                                                                                                           |              |                                                                                                                                                                                                        |           |
@@ -32,13 +33,14 @@ Preconditions:
 Test Case ID: Test2.0
 Title:Searching for phrase filtered by time range (selected from the searching tools)
 Priority: Major
-Environment: Chrome Version 116.0.5845.188 (64-bitowa)
-Microsoft Edge Version 117.0.2045.36 (64-Bit)
+Environment: Chrome browser Version 116.0.5845.188 (64-bitowa)
+Microsoft Edge browser Version 117.0.2045.36 (64-Bit)
 Windows 10 Enterprise
 HP Elitebook Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz   1.80 GHz
 Version:1.0
 Preconditions:
 1. User has an access to the Chrome browser (version 116.0.5845.188, 64bit)
+2. User has an access to the Microsoft Edge browser (version 117.0.2045.36 64-Bit)
 
 +--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 |        |                                                                                                                                                           |              |                                                                                                                                                                                          |           |
@@ -78,13 +80,14 @@ Preconditions:
 Test Case ID: Test3.0
 Title:Searching for phrase filtered by time range (own data range specified)
 Priority: Major
-Environment: Chrome Version 116.0.5845.188 (64-bitowa)
-Microsoft Edge Version 117.0.2045.36 (64-Bit)
+Environment: Chrome browser Version 116.0.5845.188 (64-bitowa)
+Microsoft Edge browserVersion 117.0.2045.36 (64-Bit)
 Windows 10 Enterprise
 HP Elitebook Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz   1.80 GHz
 Version:1.0
 Preconditions:
 1. User has an access to the Chrome browser (version 116.0.5845.188, 64bit)
+2. User has an access to the Microsoft Edge browser (version 117.0.2045.36 64-Bit)
 
 +--------+---------------------------------------------------------------------------------------------------------------------------------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+
 |        |                                                                                                                                 |              |                                                                                                                                                                                          |           |
