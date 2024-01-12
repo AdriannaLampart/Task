@@ -1,0 +1,84 @@
+Scenario 1 
+Feature:  Searching for phrase filtered by Images data type and a color type
+Scenario: As a user, I would like to search for the phrase "Prowly Media Monitoring" on Bing.com with filtering by category, i.e. images and ‘blue’ color filter 
+
+Given: I am on bing.com page 
+When: I enter the phrase i.e. “Prowly Media Monitoring” on the search field
+And: I accept the operation using Enter button
+And: I select ‘Images’ button which is located below the searching field
+And: I select ‘Filter’ icon which is located below the menu icon (hamburger icon) on the right side of the screen
+And: I click on the ‘color’ drop-down list 
+And: I select the blue square from the ‘color’ drop-down list
+Then: The searching results were filtered and the images with blue color are displayed in the searching results content
+And: “Clear filters” button located under the searching field is visible
+
+
+Scenario 2
+Feature:  Searching for phrase filtered by custom time range (personalized) 
+Scenario: As a user, I would like to search for the phrase "Prowly Media Monitoring" on the Bing.com website with filtering by a custom time range, i.e. personalized by the user
+
+Given: I am on bing.com page 
+When: I select the ‘voice search’ button on the search field 
+And: I say clearly the phrase i.e. “Prowly Media Monitoring” 
+And: I select the ‘Tools’ button located below the searching field (on the right side of screen)
+And: I click on the ‘Date’ drop-down list
+And:  I select <date1> i.e. DD.MM.YYYY from the left calendar using arrows
+And: I select <date2> i.e. DD.MM.YYYY from the right calendar using arrows
+And : I select the “Apply” button
+Then: The searching results are filtered by custom time range. Only the searching results which are within the selected custom time range are displayed (if applied).
+And: The selected time range is displayed on the date drop-down list 
+
++---------------+---------------+
+|               |               |
+| Date 1        | Date 2        |
++---------------+---------------+
+|               |               |
+| 02.01.2023    | 02.01.2024    |
++---------------+---------------+
+|               |               |
+| 11.12.2022    | 12.12.2023    |
++---------------+---------------+
+
+Scenario 3
+Feature:  Searching for phrase filtered by video data type and filter i.e. running time range
+Scenario: As a user, I would like to search for the phrase "Prowly Media Monitoring" on the Bing.com website coming only from the youtube.com website with filtering by category, i.e. video and running time filter i.e. ‘short (less than 5 minutes)’ 
+
+Given: I am on bing.com page 
+When: I enter the phrase i.e. “Prowly Media Monitoring” site:youtube.com on the search field
+And: I accept the operation using enter button
+And: I select the ‘Videos’ button which is located below the searching field
+And: I select ‘Filter’ icon which is located below the menu icon (hamburger icon) on the right side of the screen 
+And: I click on the ‘Length’ drop-down list
+And:  I select “Short (less than 5 minutes)” option from the drop-down list
+Then: The searching results were filtered and only the videos with running time less than 5 minutes are displayed in the searching results content
+And: “Clear filters” button located under the searching field is visible
+
+
+Scenario 4: 
+Feature:  Using "copilot" in the bing.com to prepare a summary regarding the media monitoring module in Prowly using specific rules for manipulating the content of the received search.
+Scenario: As a user, I would like to prepare a summary about the media monitoring module in Prowly using “copilot” in the Bing.com website. As a user, I would like to manipulate the received information by specified rules i.e.
+•	the information can only come from the https://prowly.com/, 
+•	the answer should be ultra-concise, 
+•	the respond should be as a list in Polish language. 
+Given: I am on Bing Chat with GPT-4  page
+When: I enter (in the searching field)  an information that I will provide the ‘system’ and ‘user’ prompts which ‘copilot’ should separate and keep in mind that ‘system’ will defines how prompt should work
+And: I provide in the ‘system’ prompt, the following rules i.e. the information should only come from the Prowly company domain i.e. https://prowly.com/, information from the other sites should not be considered (crucial). The provided answer should be ultra-concise prepared as a list in Polish language. 
+And: I provide the example for the “copilot” which contains: 
+-	“user” with exemplary question in English, and 
+-	“assistant” with the sample of the list in Polish language, 
+And: I provide in the ‘user’ prompt the command for the “copilot” to return the information about media monitoring modules
+And: I accept the operation using Enter button
+Then: The “copilot” provide the user with the summary of information regarding the media monitoring module in Prowly which only comes from the company domain i.e.  https://prowly.com/ , the answer is super-concise presented as a list in Polish language. 
+And: The “copilot” proposes  the example of the question to the previous request
+
+
+Scenario 5: 
+Feature:  Using "copilot" in the bing.com to prepare a summary regarding the media monitoring module in Prowly 
+Scenario: As a user, I would like to prepare a summary about the media monitoring module in Prowly using “copilot” in the Bing.com website 
+Given: I am on Bing Chat with GPT-4  page
+When: I provide in searching field the request for a summary of information regarding the media monitoring module in Prowly
+And: I accept the operation using Enter button
+Then: The “copilot” provide the user with the summary of information regarding the media monitoring module in Prowly in the same language which the request was provided
+
+And: The “copilot” proposes  the example of the question to the previous request
+
