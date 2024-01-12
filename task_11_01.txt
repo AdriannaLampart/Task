@@ -83,6 +83,5 @@ Given: I am on https://www.bing.com/chat page
 When: I provide in searching field the request for a summary of information regarding the media monitoring module in Prowly
 And: I accept the operation using Enter button
 Then: The “copilot” provide the user with the summary of information regarding the media monitoring module in Prowly in the same language which the request was provided
-
 And: The “copilot” proposes  the example of the question to the previous request
 
