@@ -1,5 +1,5 @@
 # prowly-task
-Recruitment process - Tester - Prowly task
+Prowly task
 
 Prepare 3 test cases for the following scenarios (select the "most interesting" cases in your opinion):
 
