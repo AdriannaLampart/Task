@@ -1,10 +1,12 @@
 TASK 11.01.2024
+
 Opisz scenariuszami testowymi następujące funkcje:
 A) Wyszukiwanie frazy "Prowly Media Monitoring" na stronie bing.com z filtrowaniem według kategorii treści (wszystko, wideo, wiadomości itp.).
 B) Użycie "copilot" w wyszukiwarce bing.com do zebrania informacji o module monitoringu mediów w Prowly.
 
 
 TASK 22.09.2023
+
 Prepare 3 test cases for the following scenarios (select the "most interesting" cases in your opinion):
 
 A) Searching for "prowly" on google.com, filtering by content category (everything, video, news, etc.).
