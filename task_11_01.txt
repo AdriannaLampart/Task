@@ -1,3 +1,4 @@
+
 Scenario 1 
 Feature:  Searching for phrase filtered by Images data type and a color type
 Scenario: As a user, I would like to search for the phrase "Prowly Media Monitoring" on Bing.com with filtering by category, i.e. images and ‘blue’ color filter 
@@ -28,6 +29,7 @@ And : I select the “Apply” button
 Then: The searching results are filtered by custom time range. Only the searching results which are within the selected custom time range are displayed (if applied).
 And: The selected time range is displayed on the date drop-down list 
 
+Examples:
 +---------------+---------------+
 |               |               |
 | Date 1        | Date 2        |
@@ -55,21 +57,21 @@ And: “Clear filters” button located under the searching field is visible
 
 
 Scenario 4: 
-Feature:  Using "copilot" in the bing.com to prepare a summary regarding the media monitoring module in Prowly using specific rules for manipulating the content of the received search.
+Feature:  Using "copilot" in the bing.com to prepare a summary regarding the media monitoring module in Prowly using specific rules for manipulating the content of the received search
 Scenario: As a user, I would like to prepare a summary about the media monitoring module in Prowly using “copilot” in the Bing.com website. As a user, I would like to manipulate the received information by specified rules i.e.
 •	the information can only come from the https://prowly.com/, 
 •	the answer should be ultra-concise, 
 •	the respond should be as a list in Polish language
 
-Given: I am on Bing Chat with GPT-4  page
+Given: I am on https://www.bing.com/chat page
 When: I enter (in the searching field)  an information that I will provide the ‘system’ and ‘user’ prompts which ‘copilot’ should separate and keep in mind that ‘system’ will defines how prompt should work
-And: I provide in the ‘system’ prompt, the following rules i.e. the information should only come from the Prowly company domain i.e. https://prowly.com/, information from the other sites should not be considered (crucial). The provided answer should be ultra-concise prepared as a list in Polish language. 
+And: I provide in the ‘system’ prompt, the following rules i.e. the information should only come from the Prowly company domain i.e. https://prowly.com/, information from the other sites should not be considered (crucial). The provided answer should be ultra-concise prepared as a list in Polish language
 And: I provide the example for the “copilot” which contains: 
 •	“user” with exemplary question in English, and 
 •	“assistant” with the sample of the list in Polish language, 
 And: I provide in the ‘user’ prompt the command for the “copilot” to return the information about media monitoring modules
 And: I accept the operation using Enter button
-Then: The “copilot” provide the user with the summary of information regarding the media monitoring module in Prowly which only comes from the company domain i.e.  https://prowly.com/ , the answer is super-concise presented as a list in Polish language. 
+Then: The “copilot” provide the user with the summary of information regarding the media monitoring module in Prowly which only comes from the company domain i.e.  https://prowly.com/ , the answer is super-concise presented as a list in Polish language
 And: The “copilot” proposes  the example of the question to the previous request
 
 
@@ -77,7 +79,7 @@ Scenario 5:
 Feature:  Using "copilot" in the bing.com to prepare a summary regarding the media monitoring module in Prowly 
 Scenario: As a user, I would like to prepare a summary about the media monitoring module in Prowly using “copilot” in the Bing.com website 
 
-Given: I am on Bing Chat with GPT-4  page
+Given: I am on https://www.bing.com/chat page
 When: I provide in searching field the request for a summary of information regarding the media monitoring module in Prowly
 And: I accept the operation using Enter button
 Then: The “copilot” provide the user with the summary of information regarding the media monitoring module in Prowly in the same language which the request was provided
