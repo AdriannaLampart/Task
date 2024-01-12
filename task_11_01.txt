@@ -57,7 +57,7 @@ And: “Clear filters” button located under the searching field is visible
 
 
 Scenario 4: 
-Feature:  Using "copilot" in the bing.com to prepare a summary regarding the media monitoring module in Prowly using specific rules for manipulating the content of the received search
+Feature:  Using "copilot" in the bing.com to prepare a summary regarding the "media monitoring module in Prowly" using specific rules for manipulating the content of the received search
 Scenario: As a user, I would like to prepare a summary about the media monitoring module in Prowly using “copilot” in the Bing.com website. As a user, I would like to manipulate the received information by specified rules i.e.
 •	the information can only come from the https://prowly.com/, 
 •	the answer should be ultra-concise, 
@@ -76,7 +76,7 @@ And: The “copilot” proposes  the example of the question to the previous req
 
 
 Scenario 5: 
-Feature:  Using "copilot" in the bing.com to prepare a summary regarding the media monitoring module in Prowly 
+Feature:  Using "copilot" in the bing.com to prepare a summary regarding the "media monitoring module in Prowly" 
 Scenario: As a user, I would like to prepare a summary about the media monitoring module in Prowly using “copilot” in the Bing.com website 
 
 Given: I am on https://www.bing.com/chat page
